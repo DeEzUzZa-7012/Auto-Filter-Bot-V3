@@ -31,10 +31,10 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Join Channel 📢", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton(" 🔄 Try Again 🔄", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/ErrorXbotz')
+                        InlineKeyboardButton('♻️GROUP', url='https://t.me/MMCINEMACHAKKU')
+                        InlineKeyboardButton('🎥CHANNEL', url='https://t.me/malayali00l')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -86,7 +86,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢 Join Channel 📢", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -100,11 +100,11 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Source Code", url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2'),
+                        InlineKeyboardButton("OWNER⚜️", url='https://t.me/cinemaclubcc'),
                     ],
                    [
-                       InlineKeyboardButton("Update Channel", url='https://t.me/ErrorXbotz'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/ErrorXsupport'),
+                       InlineKeyboardButton("🎥CHANNEL", url='https://t.me/malayali00l'),
+                       InlineKeyboardButton("♻️GROUP", url='https://t.me/MMCINEMACHAKKU'),
                     ],
                      [
                         InlineKeyboardButton("About", callback_data="about")
@@ -196,8 +196,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2')
+            InlineKeyboardButton('🎥CHANNEL', url='https://t.me/malayali00l'),
+            InlineKeyboardButton('♻️GROUP', url='https://t.me/MMCINEMACHAKKU')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Jinn-Of-Telegram/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/cinemaclubcc'>꧁suneeshDeezuzza★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSHARE HERE: <a href='https://telegram.me/share/url?url=https://t.me/MMCINEMACHAKKU'>Click here</a>\nCHANNEL : <a href='https://t.me/+yP9ckmsoGF1kNDNl'>JOIN</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
