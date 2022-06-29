@@ -104,7 +104,7 @@ async def filter(client, message):
 
         buttons.append(
             [InlineKeyboardButton(text="NEXT »»",callback_data=f"next_0_{keyword}")
-             InlineKeyboardButton(text="📜 Pages 1/1",callback_data="pages")])
+             InlineKeyboardButton(text="📜 Pages 1/{data['total']}",callback_data="pages")])
            
         buttons.append(
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
