@@ -124,7 +124,7 @@ async def group(client, message):
         btn = []
 
         search = message.text
-        result_txt = f"**🏷 Title:** {search}\n**🔅 Rating:** {random.choice(RATING)}\n**🎥 Genre:** {random.choice(GENRES)}\n**©️ {message.chat.title} 🍿**🖋 𝖲𝗍𝗈𝗋𝗒𝗅𝗂𝗇𝖾: <code>{imdb.get('plot')}</code>""",reply_markup=reply_markup,parse_mode="html**"
+        result_txt = f"**🏷 Title:** {search}\n**🔅 Rating:** {random.choice(RATING)}\n**🎥 Genre:** {random.choice(GENRES)}\n**©️ {message.chat.title} 🍿
                 
         nyva=BOT.get("username")
         if not nyva:
