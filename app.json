@@ -101,6 +101,10 @@
         "worker": {
             "quantity": 1,
             "size": "free"
-        }
+        },
+        "START_PIC": {
+            "description":start pic in bot pm",
+            "value":https://telegra.ph/file/04d08445dce68c9a57b25.jpg",
+        },
     }
 }
